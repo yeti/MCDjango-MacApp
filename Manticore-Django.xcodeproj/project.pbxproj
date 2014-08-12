@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AA899CF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
+		1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899D7199ACF6E00053838 /* InfoPlist.strings */; };
+		1AA899DB199ACF6E00053838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899DA199ACF6E00053838 /* main.m */; };
+		1AA899DF199ACF6E00053838 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899DD199ACF6E00053838 /* Credits.rtf */; };
+		1AA899E2199ACF6E00053838 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899E1199ACF6E00053838 /* AppDelegate.m */; };
+		1AA899E5199ACF6E00053838 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899E3199ACF6E00053838 /* MainMenu.xib */; };
+		1AA899E7199ACF6E00053838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899E6199ACF6E00053838 /* Images.xcassets */; };
+		1AA899EE199ACF6E00053838 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899ED199ACF6E00053838 /* XCTest.framework */; };
+		1AA899EF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
+		1AA899F7199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899F5199ACF6E00053838 /* InfoPlist.strings */; };
+		1AA899F9199ACF6E00053838 /* Manticore_DjangoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AA899F0199ACF6E00053838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AA899C3199ACF6E00053838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AA899CA199ACF6E00053838;
+			remoteInfo = "Manticore-Django";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AA899CB199ACF6E00053838 /* Manticore-Django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manticore-Django.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA899CE199ACF6E00053838 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1AA899D1199ACF6E00053838 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1AA899D2199ACF6E00053838 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1AA899D3199ACF6E00053838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AA899D6199ACF6E00053838 /* Manticore-Django-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manticore-Django-Info.plist"; sourceTree = "<group>"; };
+		1AA899D8199ACF6E00053838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AA899DA199ACF6E00053838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AA899DC199ACF6E00053838 /* Manticore-Django-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Manticore-Django-Prefix.pch"; sourceTree = "<group>"; };
+		1AA899DE199ACF6E00053838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1AA899E0199ACF6E00053838 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AA899E1199ACF6E00053838 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AA899E4199ACF6E00053838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1AA899E6199ACF6E00053838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1AA899EC199ACF6E00053838 /* Manticore-DjangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Manticore-DjangoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA899ED199ACF6E00053838 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1AA899F4199ACF6E00053838 /* Manticore-DjangoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manticore-DjangoTests-Info.plist"; sourceTree = "<group>"; };
+		1AA899F6199ACF6E00053838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manticore_DjangoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AA899C8199ACF6E00053838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899CF199ACF6E00053838 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA899E9199ACF6E00053838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899EF199ACF6E00053838 /* Cocoa.framework in Frameworks */,
+				1AA899EE199ACF6E00053838 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AA899C2199ACF6E00053838 = {
+			isa = PBXGroup;
+			children = (
+				1AA899D4199ACF6E00053838 /* Manticore-Django */,
+				1AA899F2199ACF6E00053838 /* Manticore-DjangoTests */,
+				1AA899CD199ACF6E00053838 /* Frameworks */,
+				1AA899CC199ACF6E00053838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA899CC199ACF6E00053838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899CB199ACF6E00053838 /* Manticore-Django.app */,
+				1AA899EC199ACF6E00053838 /* Manticore-DjangoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AA899CD199ACF6E00053838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899CE199ACF6E00053838 /* Cocoa.framework */,
+				1AA899ED199ACF6E00053838 /* XCTest.framework */,
+				1AA899D0199ACF6E00053838 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AA899D0199ACF6E00053838 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899D1199ACF6E00053838 /* AppKit.framework */,
+				1AA899D2199ACF6E00053838 /* CoreData.framework */,
+				1AA899D3199ACF6E00053838 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1AA899D4199ACF6E00053838 /* Manticore-Django */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899E0199ACF6E00053838 /* AppDelegate.h */,
+				1AA899E1199ACF6E00053838 /* AppDelegate.m */,
+				1AA899E3199ACF6E00053838 /* MainMenu.xib */,
+				1AA899E6199ACF6E00053838 /* Images.xcassets */,
+				1AA899D5199ACF6E00053838 /* Supporting Files */,
+			);
+			path = "Manticore-Django";
+			sourceTree = "<group>";
+		};
+		1AA899D5199ACF6E00053838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899D6199ACF6E00053838 /* Manticore-Django-Info.plist */,
+				1AA899D7199ACF6E00053838 /* InfoPlist.strings */,
+				1AA899DA199ACF6E00053838 /* main.m */,
+				1AA899DC199ACF6E00053838 /* Manticore-Django-Prefix.pch */,
+				1AA899DD199ACF6E00053838 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AA899F2199ACF6E00053838 /* Manticore-DjangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */,
+				1AA899F3199ACF6E00053838 /* Supporting Files */,
+			);
+			path = "Manticore-DjangoTests";
+			sourceTree = "<group>";
+		};
+		1AA899F3199ACF6E00053838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AA899F4199ACF6E00053838 /* Manticore-DjangoTests-Info.plist */,
+				1AA899F5199ACF6E00053838 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AA899CA199ACF6E00053838 /* Manticore-Django */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA899FC199ACF6E00053838 /* Build configuration list for PBXNativeTarget "Manticore-Django" */;
+			buildPhases = (
+				1AA899C7199ACF6E00053838 /* Sources */,
+				1AA899C8199ACF6E00053838 /* Frameworks */,
+				1AA899C9199ACF6E00053838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Manticore-Django";
+			productName = "Manticore-Django";
+			productReference = 1AA899CB199ACF6E00053838 /* Manticore-Django.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AA899EB199ACF6E00053838 /* Manticore-DjangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AA899FF199ACF6E00053838 /* Build configuration list for PBXNativeTarget "Manticore-DjangoTests" */;
+			buildPhases = (
+				1AA899E8199ACF6E00053838 /* Sources */,
+				1AA899E9199ACF6E00053838 /* Frameworks */,
+				1AA899EA199ACF6E00053838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AA899F1199ACF6E00053838 /* PBXTargetDependency */,
+			);
+			name = "Manticore-DjangoTests";
+			productName = "Manticore-DjangoTests";
+			productReference = 1AA899EC199ACF6E00053838 /* Manticore-DjangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AA899C3199ACF6E00053838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Yeti;
+				TargetAttributes = {
+					1AA899EB199ACF6E00053838 = {
+						TestTargetID = 1AA899CA199ACF6E00053838;
+					};
+				};
+			};
+			buildConfigurationList = 1AA899C6199ACF6E00053838 /* Build configuration list for PBXProject "Manticore-Django" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AA899C2199ACF6E00053838;
+			productRefGroup = 1AA899CC199ACF6E00053838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AA899CA199ACF6E00053838 /* Manticore-Django */,
+				1AA899EB199ACF6E00053838 /* Manticore-DjangoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AA899C9199ACF6E00053838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */,
+				1AA899E7199ACF6E00053838 /* Images.xcassets in Resources */,
+				1AA899DF199ACF6E00053838 /* Credits.rtf in Resources */,
+				1AA899E5199ACF6E00053838 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA899EA199ACF6E00053838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899F7199ACF6E00053838 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AA899C7199ACF6E00053838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899E2199ACF6E00053838 /* AppDelegate.m in Sources */,
+				1AA899DB199ACF6E00053838 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AA899E8199ACF6E00053838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AA899F9199ACF6E00053838 /* Manticore_DjangoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AA899F1199ACF6E00053838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AA899CA199ACF6E00053838 /* Manticore-Django */;
+			targetProxy = 1AA899F0199ACF6E00053838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AA899D7199ACF6E00053838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA899D8199ACF6E00053838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AA899DD199ACF6E00053838 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA899DE199ACF6E00053838 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1AA899E3199ACF6E00053838 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA899E4199ACF6E00053838 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1AA899F5199ACF6E00053838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AA899F6199ACF6E00053838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AA899FA199ACF6E00053838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1AA899FB199ACF6E00053838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1AA899FD199ACF6E00053838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manticore-Django/Manticore-Django-Prefix.pch";
+				INFOPLIST_FILE = "Manticore-Django/Manticore-Django-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AA899FE199ACF6E00053838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manticore-Django/Manticore-Django-Prefix.pch";
+				INFOPLIST_FILE = "Manticore-Django/Manticore-Django-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AA89A00199ACF6E00053838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Manticore-Django.app/Contents/MacOS/Manticore-Django";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manticore-Django/Manticore-Django-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Manticore-DjangoTests/Manticore-DjangoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1AA89A01199ACF6E00053838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Manticore-Django.app/Contents/MacOS/Manticore-Django";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Manticore-Django/Manticore-Django-Prefix.pch";
+				INFOPLIST_FILE = "Manticore-DjangoTests/Manticore-DjangoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AA899C6199ACF6E00053838 /* Build configuration list for PBXProject "Manticore-Django" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA899FA199ACF6E00053838 /* Debug */,
+				1AA899FB199ACF6E00053838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AA899FC199ACF6E00053838 /* Build configuration list for PBXNativeTarget "Manticore-Django" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA899FD199ACF6E00053838 /* Debug */,
+				1AA899FE199ACF6E00053838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AA899FF199ACF6E00053838 /* Build configuration list for PBXNativeTarget "Manticore-DjangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AA89A00199ACF6E00053838 /* Debug */,
+				1AA89A01199ACF6E00053838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AA899C3199ACF6E00053838 /* Project object */;
+}
