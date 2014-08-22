@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A40505E199D3481009931C5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A40505D199D3481009931C5 /* UserModel.m */; };
+		1A405070199D5312009931C5 /* StatusBoxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A40506E199D5312009931C5 /* StatusBoxController.xib */; };
 		1AA899CF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
 		1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899D7199ACF6E00053838 /* InfoPlist.strings */; };
 		1AA899DB199ACF6E00053838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899DA199ACF6E00053838 /* main.m */; };
@@ -18,6 +20,14 @@
 		1AA899EF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
 		1AA899F7199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899F5199ACF6E00053838 /* InfoPlist.strings */; };
 		1AA899F9199ACF6E00053838 /* Manticore_DjangoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */; };
+		1AA89A5E199AEE9B00053838 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A5D199AEE9B00053838 /* AppController.m */; };
+		1AA89A62199AEED900053838 /* DirectoryInstallationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A60199AEED900053838 /* DirectoryInstallationView.m */; };
+		1AA89A63199AEED900053838 /* DirectoryInstallationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */; };
+		1AA89A67199AEF0800053838 /* RequiredDownloadsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */; };
+		1AA89A68199AEF0800053838 /* RequiredDownloadsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */; };
+		1AA89A6D199C474D00053838 /* SSHGenerator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A6C199C474D00053838 /* SSHGenerator.xib */; };
+		1AA89A70199C484400053838 /* SSHGeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A6F199C484400053838 /* SSHGeneratorController.m */; };
+		1AA89A73199C565F00053838 /* SystemInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A72199C565F00053838 /* SystemInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A143EE319A68343008E1602 /* ViewFlow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFlow.h; sourceTree = "<group>"; };
+		1A40505C199D3481009931C5 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		1A40505D199D3481009931C5 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		1A40506E199D5312009931C5 /* StatusBoxController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBoxController.xib; sourceTree = "<group>"; };
 		1AA899CB199ACF6E00053838 /* Manticore-Django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manticore-Django.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA899CE199ACF6E00053838 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1AA899D1199ACF6E00053838 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +64,19 @@
 		1AA899F4199ACF6E00053838 /* Manticore-DjangoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Manticore-DjangoTests-Info.plist"; sourceTree = "<group>"; };
 		1AA899F6199ACF6E00053838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manticore_DjangoTests.m; sourceTree = "<group>"; };
+		1AA89A5C199AEE9B00053838 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		1AA89A5D199AEE9B00053838 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		1AA89A5F199AEED900053838 /* DirectoryInstallationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryInstallationView.h; sourceTree = "<group>"; };
+		1AA89A60199AEED900053838 /* DirectoryInstallationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryInstallationView.m; sourceTree = "<group>"; };
+		1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryInstallationView.xib; sourceTree = "<group>"; };
+		1AA89A64199AEF0800053838 /* RequiredDownloadsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequiredDownloadsView.h; sourceTree = "<group>"; };
+		1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequiredDownloadsView.m; sourceTree = "<group>"; };
+		1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequiredDownloadsView.xib; sourceTree = "<group>"; };
+		1AA89A6C199C474D00053838 /* SSHGenerator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSHGenerator.xib; sourceTree = "<group>"; };
+		1AA89A6E199C484400053838 /* SSHGeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHGeneratorController.h; sourceTree = "<group>"; };
+		1AA89A6F199C484400053838 /* SSHGeneratorController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHGeneratorController.m; sourceTree = "<group>"; };
+		1AA89A71199C565F00053838 /* SystemInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInterface.h; sourceTree = "<group>"; };
+		1AA89A72199C565F00053838 /* SystemInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A40505F199D424D009931C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A40505C199D3481009931C5 /* UserModel.h */,
+				1A40505D199D3481009931C5 /* UserModel.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1A405060199D4FCD009931C5 /* Helper Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AA89A6E199C484400053838 /* SSHGeneratorController.h */,
+				1AA89A6F199C484400053838 /* SSHGeneratorController.m */,
+			);
+			name = "Helper Views";
+			sourceTree = "<group>";
+		};
 		1AA899C2199ACF6E00053838 = {
 			isa = PBXGroup;
 			children = (
@@ -115,11 +160,17 @@
 		1AA899D4199ACF6E00053838 /* Manticore-Django */ = {
 			isa = PBXGroup;
 			children = (
+				1AF8F68819A1C27800F0C95F /* Views */,
+				1A40505F199D424D009931C5 /* Models */,
+				1AA89A6B199BF26A00053838 /* Controller */,
+				1AA89A6A199BF24800053838 /* Downloads */,
+				1AA89A69199BF20200053838 /* Directory Selector */,
 				1AA899E0199ACF6E00053838 /* AppDelegate.h */,
 				1AA899E1199ACF6E00053838 /* AppDelegate.m */,
-				1AA899E3199ACF6E00053838 /* MainMenu.xib */,
 				1AA899E6199ACF6E00053838 /* Images.xcassets */,
 				1AA899D5199ACF6E00053838 /* Supporting Files */,
+				1AA89A71199C565F00053838 /* SystemInterface.h */,
+				1AA89A72199C565F00053838 /* SystemInterface.m */,
 			);
 			path = "Manticore-Django";
 			sourceTree = "<group>";
@@ -128,8 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				1AA899D6199ACF6E00053838 /* Manticore-Django-Info.plist */,
-				1AA899D7199ACF6E00053838 /* InfoPlist.strings */,
 				1AA899DA199ACF6E00053838 /* main.m */,
+				1AA899D7199ACF6E00053838 /* InfoPlist.strings */,
 				1AA899DC199ACF6E00053838 /* Manticore-Django-Prefix.pch */,
 				1AA899DD199ACF6E00053838 /* Credits.rtf */,
 			);
@@ -152,6 +203,47 @@
 				1AA899F5199ACF6E00053838 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AA89A69199BF20200053838 /* Directory Selector */ = {
+			isa = PBXGroup;
+			children = (
+				1A405060199D4FCD009931C5 /* Helper Views */,
+				1AA89A5F199AEED900053838 /* DirectoryInstallationView.h */,
+				1AA89A60199AEED900053838 /* DirectoryInstallationView.m */,
+			);
+			name = "Directory Selector";
+			sourceTree = "<group>";
+		};
+		1AA89A6A199BF24800053838 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				1AA89A64199AEF0800053838 /* RequiredDownloadsView.h */,
+				1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */,
+			);
+			name = Downloads;
+			sourceTree = "<group>";
+		};
+		1AA89A6B199BF26A00053838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1AA89A5C199AEE9B00053838 /* AppController.h */,
+				1AA89A5D199AEE9B00053838 /* AppController.m */,
+				1A143EE319A68343008E1602 /* ViewFlow.h */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		1AF8F68819A1C27800F0C95F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */,
+				1AA899E3199ACF6E00053838 /* MainMenu.xib */,
+				1A40506E199D5312009931C5 /* StatusBoxController.xib */,
+				1AA89A6C199C474D00053838 /* SSHGenerator.xib */,
+				1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,10 +322,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA89A63199AEED900053838 /* DirectoryInstallationView.xib in Resources */,
+				1A405070199D5312009931C5 /* StatusBoxController.xib in Resources */,
 				1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */,
 				1AA899E7199ACF6E00053838 /* Images.xcassets in Resources */,
+				1AA89A6D199C474D00053838 /* SSHGenerator.xib in Resources */,
 				1AA899DF199ACF6E00053838 /* Credits.rtf in Resources */,
 				1AA899E5199ACF6E00053838 /* MainMenu.xib in Resources */,
+				1AA89A68199AEF0800053838 /* RequiredDownloadsView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,8 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AA89A73199C565F00053838 /* SystemInterface.m in Sources */,
+				1AA89A62199AEED900053838 /* DirectoryInstallationView.m in Sources */,
 				1AA899E2199ACF6E00053838 /* AppDelegate.m in Sources */,
+				1AA89A5E199AEE9B00053838 /* AppController.m in Sources */,
 				1AA899DB199ACF6E00053838 /* main.m in Sources */,
+				1AA89A70199C484400053838 /* SSHGeneratorController.m in Sources */,
+				1A40505E199D3481009931C5 /* UserModel.m in Sources */,
+				1AA89A67199AEF0800053838 /* RequiredDownloadsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -353,6 +456,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -466,6 +570,7 @@
 				1AA899FE199ACF6E00053838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AA899FF199ACF6E00053838 /* Build configuration list for PBXNativeTarget "Manticore-DjangoTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +579,7 @@
 				1AA89A01199ACF6E00053838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
