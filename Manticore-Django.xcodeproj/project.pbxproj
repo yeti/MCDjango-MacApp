@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1A40505E199D3481009931C5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A40505D199D3481009931C5 /* UserModel.m */; };
 		1A405070199D5312009931C5 /* StatusBoxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A40506E199D5312009931C5 /* StatusBoxController.xib */; };
+		1A6CE9C219A7D68F00295812 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE9C019A7D68F00295812 /* MyViewController.m */; };
+		1A6CE9C319A7D68F00295812 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6CE9C119A7D68F00295812 /* MyViewController.xib */; };
 		1AA899CF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
 		1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899D7199ACF6E00053838 /* InfoPlist.strings */; };
 		1AA899DB199ACF6E00053838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899DA199ACF6E00053838 /* main.m */; };
@@ -45,6 +47,9 @@
 		1A40505C199D3481009931C5 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		1A40505D199D3481009931C5 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		1A40506E199D5312009931C5 /* StatusBoxController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBoxController.xib; sourceTree = "<group>"; };
+		1A6CE9BF19A7D68F00295812 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		1A6CE9C019A7D68F00295812 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		1A6CE9C119A7D68F00295812 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
 		1AA899CB199ACF6E00053838 /* Manticore-Django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manticore-Django.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA899CE199ACF6E00053838 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1AA899D1199ACF6E00053838 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -171,6 +176,9 @@
 				1AA899D5199ACF6E00053838 /* Supporting Files */,
 				1AA89A71199C565F00053838 /* SystemInterface.h */,
 				1AA89A72199C565F00053838 /* SystemInterface.m */,
+				1A6CE9BF19A7D68F00295812 /* MyViewController.h */,
+				1A6CE9C019A7D68F00295812 /* MyViewController.m */,
+				1A6CE9C119A7D68F00295812 /* MyViewController.xib */,
 			);
 			path = "Manticore-Django";
 			sourceTree = "<group>";
@@ -330,6 +338,7 @@
 				1AA899DF199ACF6E00053838 /* Credits.rtf in Resources */,
 				1AA899E5199ACF6E00053838 /* MainMenu.xib in Resources */,
 				1AA89A68199AEF0800053838 /* RequiredDownloadsView.xib in Resources */,
+				1A6CE9C319A7D68F00295812 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +360,7 @@
 				1AA89A73199C565F00053838 /* SystemInterface.m in Sources */,
 				1AA89A62199AEED900053838 /* DirectoryInstallationView.m in Sources */,
 				1AA899E2199ACF6E00053838 /* AppDelegate.m in Sources */,
+				1A6CE9C219A7D68F00295812 /* MyViewController.m in Sources */,
 				1AA89A5E199AEE9B00053838 /* AppController.m in Sources */,
 				1AA899DB199ACF6E00053838 /* main.m in Sources */,
 				1AA89A70199C484400053838 /* SSHGeneratorController.m in Sources */,
