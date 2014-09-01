@@ -8,10 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import "UserModel.h"
-#import "DirectoryInstallationView.h"
-#import "RequiredDownloadsView.h"
+#import "InstallationController.h"
+#import "RequiredDownloadsController.h"
+#import "PyCharmSetupController.h"
 #import "ViewFlow.h"
-#define VIEW_COUNT 1
+#define VIEW_COUNT 2
 
 @interface AppController : NSObject <ViewFlow>
 

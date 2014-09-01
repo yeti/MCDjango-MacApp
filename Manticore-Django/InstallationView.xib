@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="DirectoryInstallationView">
+        <customObject id="-2" userLabel="File's Owner" customClass="InstallationController">
             <connections>
                 <outlet property="githubButton" destination="8TN-Xr-1q8" id="oTx-ze-sOf"/>
                 <outlet property="homeBrewButton" destination="BKp-OI-XcH" id="dc9-Ix-qMq"/>

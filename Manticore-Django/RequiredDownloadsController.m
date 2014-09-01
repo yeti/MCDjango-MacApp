@@ -6,13 +6,10 @@
 //  Copyright (c) 2014 Yeti. All rights reserved.
 //
 
-#import "RequiredDownloadsView.h"
+#import "RequiredDownloadsController.h"
 
-@interface RequiredDownloadsView ()
 
-@end
-
-@implementation RequiredDownloadsView
+@implementation RequiredDownloadsController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil parent:(AppController*)parent
 {
@@ -58,16 +55,10 @@
     [self initImages];
     [self initURLs];
     [self initButtons];
-    [self.parent.nextBtn setTitle:@"Next"];
-}
-
-- (void) nextAction {
-    
 }
 
 
-
-- (IBAction)Vagrant:(id)sender {
+- (IBAction)vagrant:(id)sender {
     [[NSWorkspace sharedWorkspace] openURL:self.vagrantUrl];
 }
 

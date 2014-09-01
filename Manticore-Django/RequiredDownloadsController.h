@@ -11,7 +11,7 @@
 
 @class AppController;
 
-@interface RequiredDownloadsView : NSViewController
+@interface RequiredDownloadsController : NSViewController
 
 @property (weak) AppController* parent;
 
@@ -42,7 +42,7 @@
 - (void) initImages;
 - (void) initURLs;
 
-- (IBAction)Vagrant:(id)sender;
+- (IBAction)vagrant:(id)sender;
 - (IBAction)github:(id)sender;
 - (IBAction)virtualBox:(id)sender;
 - (IBAction)pycharm:(id)sender;

@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		1A40505E199D3481009931C5 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A40505D199D3481009931C5 /* UserModel.m */; };
 		1A405070199D5312009931C5 /* StatusBoxController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A40506E199D5312009931C5 /* StatusBoxController.xib */; };
-		1A6CE9C219A7D68F00295812 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A6CE9C019A7D68F00295812 /* MyViewController.m */; };
-		1A6CE9C319A7D68F00295812 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A6CE9C119A7D68F00295812 /* MyViewController.xib */; };
+		1A7CC9D519AEA41D0007F932 /* PyCharmSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A7CC9D419AEA41D0007F932 /* PyCharmSetupView.xib */; };
+		1A7CC9D819AEA4760007F932 /* PyCharmSetupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A7CC9D719AEA4760007F932 /* PyCharmSetupController.m */; };
 		1AA899CF199ACF6E00053838 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA899CE199ACF6E00053838 /* Cocoa.framework */; };
 		1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899D7199ACF6E00053838 /* InfoPlist.strings */; };
 		1AA899DB199ACF6E00053838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899DA199ACF6E00053838 /* main.m */; };
@@ -23,9 +23,9 @@
 		1AA899F7199ACF6E00053838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AA899F5199ACF6E00053838 /* InfoPlist.strings */; };
 		1AA899F9199ACF6E00053838 /* Manticore_DjangoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */; };
 		1AA89A5E199AEE9B00053838 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A5D199AEE9B00053838 /* AppController.m */; };
-		1AA89A62199AEED900053838 /* DirectoryInstallationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A60199AEED900053838 /* DirectoryInstallationView.m */; };
-		1AA89A63199AEED900053838 /* DirectoryInstallationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */; };
-		1AA89A67199AEF0800053838 /* RequiredDownloadsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */; };
+		1AA89A62199AEED900053838 /* InstallationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A60199AEED900053838 /* InstallationController.m */; };
+		1AA89A63199AEED900053838 /* InstallationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A61199AEED900053838 /* InstallationView.xib */; };
+		1AA89A67199AEF0800053838 /* RequiredDownloadsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A65199AEF0800053838 /* RequiredDownloadsController.m */; };
 		1AA89A68199AEF0800053838 /* RequiredDownloadsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */; };
 		1AA89A6D199C474D00053838 /* SSHGenerator.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA89A6C199C474D00053838 /* SSHGenerator.xib */; };
 		1AA89A70199C484400053838 /* SSHGeneratorController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA89A6F199C484400053838 /* SSHGeneratorController.m */; };
@@ -47,9 +47,9 @@
 		1A40505C199D3481009931C5 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		1A40505D199D3481009931C5 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
 		1A40506E199D5312009931C5 /* StatusBoxController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusBoxController.xib; sourceTree = "<group>"; };
-		1A6CE9BF19A7D68F00295812 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		1A6CE9C019A7D68F00295812 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		1A6CE9C119A7D68F00295812 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		1A7CC9D419AEA41D0007F932 /* PyCharmSetupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PyCharmSetupView.xib; sourceTree = "<group>"; };
+		1A7CC9D619AEA4760007F932 /* PyCharmSetupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PyCharmSetupController.h; sourceTree = "<group>"; };
+		1A7CC9D719AEA4760007F932 /* PyCharmSetupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PyCharmSetupController.m; sourceTree = "<group>"; };
 		1AA899CB199ACF6E00053838 /* Manticore-Django.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manticore-Django.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA899CE199ACF6E00053838 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1AA899D1199ACF6E00053838 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -71,11 +71,11 @@
 		1AA899F8199ACF6E00053838 /* Manticore_DjangoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manticore_DjangoTests.m; sourceTree = "<group>"; };
 		1AA89A5C199AEE9B00053838 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		1AA89A5D199AEE9B00053838 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		1AA89A5F199AEED900053838 /* DirectoryInstallationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectoryInstallationView.h; sourceTree = "<group>"; };
-		1AA89A60199AEED900053838 /* DirectoryInstallationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectoryInstallationView.m; sourceTree = "<group>"; };
-		1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DirectoryInstallationView.xib; sourceTree = "<group>"; };
-		1AA89A64199AEF0800053838 /* RequiredDownloadsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequiredDownloadsView.h; sourceTree = "<group>"; };
-		1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequiredDownloadsView.m; sourceTree = "<group>"; };
+		1AA89A5F199AEED900053838 /* InstallationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstallationController.h; sourceTree = "<group>"; };
+		1AA89A60199AEED900053838 /* InstallationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstallationController.m; sourceTree = "<group>"; };
+		1AA89A61199AEED900053838 /* InstallationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstallationView.xib; sourceTree = "<group>"; };
+		1AA89A64199AEF0800053838 /* RequiredDownloadsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequiredDownloadsController.h; sourceTree = "<group>"; };
+		1AA89A65199AEF0800053838 /* RequiredDownloadsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequiredDownloadsController.m; sourceTree = "<group>"; };
 		1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequiredDownloadsView.xib; sourceTree = "<group>"; };
 		1AA89A6C199C474D00053838 /* SSHGenerator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SSHGenerator.xib; sourceTree = "<group>"; };
 		1AA89A6E199C484400053838 /* SSHGeneratorController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHGeneratorController.h; sourceTree = "<group>"; };
@@ -167,18 +167,13 @@
 			children = (
 				1AF8F68819A1C27800F0C95F /* Views */,
 				1A40505F199D424D009931C5 /* Models */,
-				1AA89A6B199BF26A00053838 /* Controller */,
-				1AA89A6A199BF24800053838 /* Downloads */,
-				1AA89A69199BF20200053838 /* Directory Selector */,
+				1AA89A6B199BF26A00053838 /* Controllers */,
 				1AA899E0199ACF6E00053838 /* AppDelegate.h */,
 				1AA899E1199ACF6E00053838 /* AppDelegate.m */,
 				1AA899E6199ACF6E00053838 /* Images.xcassets */,
 				1AA899D5199ACF6E00053838 /* Supporting Files */,
 				1AA89A71199C565F00053838 /* SystemInterface.h */,
 				1AA89A72199C565F00053838 /* SystemInterface.m */,
-				1A6CE9BF19A7D68F00295812 /* MyViewController.h */,
-				1A6CE9C019A7D68F00295812 /* MyViewController.m */,
-				1A6CE9C119A7D68F00295812 /* MyViewController.xib */,
 			);
 			path = "Manticore-Django";
 			sourceTree = "<group>";
@@ -217,8 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				1A405060199D4FCD009931C5 /* Helper Views */,
-				1AA89A5F199AEED900053838 /* DirectoryInstallationView.h */,
-				1AA89A60199AEED900053838 /* DirectoryInstallationView.m */,
+				1AA89A5F199AEED900053838 /* InstallationController.h */,
+				1AA89A60199AEED900053838 /* InstallationController.m */,
 			);
 			name = "Directory Selector";
 			sourceTree = "<group>";
@@ -226,30 +221,35 @@
 		1AA89A6A199BF24800053838 /* Downloads */ = {
 			isa = PBXGroup;
 			children = (
-				1AA89A64199AEF0800053838 /* RequiredDownloadsView.h */,
-				1AA89A65199AEF0800053838 /* RequiredDownloadsView.m */,
+				1AA89A64199AEF0800053838 /* RequiredDownloadsController.h */,
+				1AA89A65199AEF0800053838 /* RequiredDownloadsController.m */,
 			);
 			name = Downloads;
 			sourceTree = "<group>";
 		};
-		1AA89A6B199BF26A00053838 /* Controller */ = {
+		1AA89A6B199BF26A00053838 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				1AA89A69199BF20200053838 /* Directory Selector */,
+				1AA89A6A199BF24800053838 /* Downloads */,
 				1AA89A5C199AEE9B00053838 /* AppController.h */,
 				1AA89A5D199AEE9B00053838 /* AppController.m */,
 				1A143EE319A68343008E1602 /* ViewFlow.h */,
+				1A7CC9D619AEA4760007F932 /* PyCharmSetupController.h */,
+				1A7CC9D719AEA4760007F932 /* PyCharmSetupController.m */,
 			);
-			name = Controller;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 		1AF8F68819A1C27800F0C95F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1AA89A61199AEED900053838 /* DirectoryInstallationView.xib */,
+				1AA89A61199AEED900053838 /* InstallationView.xib */,
 				1AA899E3199ACF6E00053838 /* MainMenu.xib */,
 				1A40506E199D5312009931C5 /* StatusBoxController.xib */,
 				1AA89A6C199C474D00053838 /* SSHGenerator.xib */,
 				1AA89A66199AEF0800053838 /* RequiredDownloadsView.xib */,
+				1A7CC9D419AEA41D0007F932 /* PyCharmSetupView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -330,7 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA89A63199AEED900053838 /* DirectoryInstallationView.xib in Resources */,
+				1AA89A63199AEED900053838 /* InstallationView.xib in Resources */,
 				1A405070199D5312009931C5 /* StatusBoxController.xib in Resources */,
 				1AA899D9199ACF6E00053838 /* InfoPlist.strings in Resources */,
 				1AA899E7199ACF6E00053838 /* Images.xcassets in Resources */,
@@ -338,7 +338,7 @@
 				1AA899DF199ACF6E00053838 /* Credits.rtf in Resources */,
 				1AA899E5199ACF6E00053838 /* MainMenu.xib in Resources */,
 				1AA89A68199AEF0800053838 /* RequiredDownloadsView.xib in Resources */,
-				1A6CE9C319A7D68F00295812 /* MyViewController.xib in Resources */,
+				1A7CC9D519AEA41D0007F932 /* PyCharmSetupView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,14 +358,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA89A73199C565F00053838 /* SystemInterface.m in Sources */,
-				1AA89A62199AEED900053838 /* DirectoryInstallationView.m in Sources */,
+				1AA89A62199AEED900053838 /* InstallationController.m in Sources */,
 				1AA899E2199ACF6E00053838 /* AppDelegate.m in Sources */,
-				1A6CE9C219A7D68F00295812 /* MyViewController.m in Sources */,
 				1AA89A5E199AEE9B00053838 /* AppController.m in Sources */,
 				1AA899DB199ACF6E00053838 /* main.m in Sources */,
 				1AA89A70199C484400053838 /* SSHGeneratorController.m in Sources */,
 				1A40505E199D3481009931C5 /* UserModel.m in Sources */,
-				1AA89A67199AEF0800053838 /* RequiredDownloadsView.m in Sources */,
+				1A7CC9D819AEA4760007F932 /* PyCharmSetupController.m in Sources */,
+				1AA89A67199AEF0800053838 /* RequiredDownloadsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

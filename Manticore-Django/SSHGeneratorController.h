@@ -7,14 +7,14 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "DirectoryInstallationView.h"
+#import "InstallationController.h"
 #import "SystemInterface.h"
 #import "UserModel.h"
 
-@class DirectoryInstallationView;
+@class InstallationController;
 
 @interface SSHGeneratorController : NSWindowController
-@property (weak) DirectoryInstallationView* parent;
+@property (weak) InstallationController* parent;
 @property (weak) UserModel* user;
 
 @property (weak) IBOutlet NSTextField* email;
@@ -22,7 +22,7 @@
 @property (weak) IBOutlet NSSecureTextField* passphraseCheck;
 @property (weak) IBOutlet NSTextField* errorMessage;
 
-- (id) initWithWindowNibName:(NSString*)windowNibName parent:(DirectoryInstallationView*)parent;
+- (id) initWithWindowNibName:(NSString*)windowNibName parent:(InstallationController*)parent;
 
 - (IBAction)createSSHKey:(id)sender;
 @end

@@ -20,7 +20,7 @@
     return self;
 }
 
--(id) initWithWindowNibName:(NSString *)windowNibName parent:(DirectoryInstallationView*)parent {
+-(id) initWithWindowNibName:(NSString *)windowNibName parent:(InstallationController*)parent {
     self.parent = parent;
     self.user = parent.user;
     return [super initWithWindowNibName:windowNibName];

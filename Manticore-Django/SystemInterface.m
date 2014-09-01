@@ -10,42 +10,17 @@
 
 @implementation SystemInterface
 
-+ (NSString*) runTask: (NSTask*)task waitUntilFinished:(BOOL)wait frameToWriteStatusTo:(id)statusBox{
++ (NSString*) runTask: (NSTask*)task waitUntilFinished:(BOOL)wait {
     NSPipe* output = [NSPipe pipe];
-//    NSPipe* error = [NSPipe pipe];
+
     task.standardOutput = output;
-//    task.standardError = error;
     NSFileHandle* outputFile = output.fileHandleForReading;
-//    NSFileHandle* errorFile = error.fileHandleForReading;
-    
-//    if (statusBox) {
-//        [outputFile setReadabilityHandler: ^(NSFileHandle *aFile) {
-//            NSData* data = [aFile availableData];
-//            NSString* read = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
-//            [statusBox setStringValue:read];
-//        }];
-//        
-//        [task setTerminationHandler:^(NSTask* aTask) {
-//            outputFile.readabilityHandler = nil;
-//        }];
-//        [task launch];
-//    }
-//    else {
-        [task launch];
-        if (wait) {
-            while ([task isRunning]);
-        }
-//        NSString* errorMessage = [[NSString alloc] initWithData:[errorFile readDataToEndOfFile] encoding:NSUTF8StringEncoding];
-////        if (errorMessage.length) {
-////            NSLog(@"error is being returned or length %li", (long) errorMessage.length);
-////            
-////            return errorMessage;
-////        }
-//        else {
-            return [[NSString alloc] initWithData:[outputFile readDataToEndOfFile] encoding:NSUTF8StringEncoding];
-//        }
-//    }
-//    return nil;
+    [task launch];
+    if (wait) {
+        while ([task isRunning]);
+    }
+    return [[NSString alloc] initWithData:
+            [outputFile readDataToEndOfFile] encoding:NSUTF8StringEncoding];
 }
 
 + (NSTask*) prepareTaskForCommand:(NSString*)command {
@@ -66,35 +41,10 @@
     return task;
 }
 
-//+ (NSTask*) prepareTaskForPythonCommand:(NSString*)command {
-//    NSTask* task = [[NSTask alloc] init];
-//    NSRange firstSpace = [command rangeOfString:@" "];
-//    NSRange commandString = [command rangeOfString:@"-c"];
-//    BOOL commandIsCommandString = commandString.location != NSNotFound;
-//    if (commandIsCommandString) {
-//        NSString *cmdString = [command substringToIndex:firstSpace.location];
-//        NSString *argString = [command substringFromIndex:commandString.location];
-//        NSArray *args = @[argString];
-//        NSLog(@"cmdString string is %@", cmdString);
-//        NSLog(@"args are %@", args);
-//        task.launchPath = cmdString;
-//        task.arguments = args;
-//    }
-//    else {
-//        task.launchPath = command;
-//    }
-//    return task;
-//}
-
-
 + (NSString*) runCommand: (NSString*)command {
-    return [SystemInterface runTask:[SystemInterface prepareTaskForCommand:command] waitUntilFinished:YES frameToWriteStatusTo:NULL];
+    return [SystemInterface runTask:[SystemInterface prepareTaskForCommand:command] waitUntilFinished:YES];
 }
 
-//+ (NSString*) runPythonCommand: (NSString*)command {
-//    return [SystemInterface runTask:[SystemInterface prepareTaskForPythonCommand:command] waitUntilFinished:YES frameToWriteStatusTo:NULL];
-//}
-//
 + (void) runCommandInTerminal: (NSString*) command {
     NSString* appleCommand = [NSString stringWithFormat:@"tell application \"Terminal\"\n\tactivate\n\tdo script\"%@; exit\"\nend tell", command];
     NSAppleScript* appleScript = [[NSAppleScript alloc] initWithSource:appleCommand];

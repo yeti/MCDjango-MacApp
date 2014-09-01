@@ -12,11 +12,13 @@
 
 enum {
     kDownloadsView = 0,
-    kDirectoryView
+    kDirectoryView,
+    kPycharmView
 };
 
-NSString *const kDirectoryViewNib = @"DirectoryInstallationView";
+NSString *const kInstallationViewNib = @"InstallationView";
 NSString *const kDownloadViewNib = @"RequiredDownloadsView";
+NSString *const kPycharmViewNib = @"PyCharmSetupView";
 
 - (void) awakeFromNib {
     self.user = [[UserModel alloc] init];
@@ -74,10 +76,13 @@ NSString *const kDownloadViewNib = @"RequiredDownloadsView";
     [self.mainViewController.view removeFromSuperview];
     switch (number) {
         case kDirectoryView:
-            self.mainViewController = [[DirectoryInstallationView alloc] initWithNibName:kDirectoryViewNib bundle:nil parent:self];
+            self.mainViewController = [[InstallationController alloc] initWithNibName:kInstallationViewNib bundle:nil parent:self];
             break;
         case kDownloadsView:
-            self.mainViewController = [[RequiredDownloadsView alloc] initWithNibName:kDownloadViewNib bundle:nil parent:self];
+            self.mainViewController = [[RequiredDownloadsController alloc] initWithNibName:kDownloadViewNib bundle:nil parent:self];
+            break;
+        case kPycharmView:
+            self.mainViewController = [[PyCharmSetupController alloc] initWithNibName:kPycharmViewNib bundle:nil parent:self];
         default:
             break;
     }

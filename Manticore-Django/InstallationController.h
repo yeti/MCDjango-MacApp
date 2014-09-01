@@ -17,7 +17,7 @@
 @class SSHGeneratorController;
 @class AppController;
 
-@interface DirectoryInstallationView : NSViewController <ViewFlow>
+@interface InstallationController : NSViewController <ViewFlow>
 
 @property (weak) AppController* parent;
 @property (weak) UserModel* user;
@@ -53,6 +53,7 @@
 @property (weak) IBOutlet NSTextField *projectAppNameField;
 @property (weak) IBOutlet NSTextField *projectDbPassField;
 
+@property (assign) BOOL projectIsSetup;
 
 - (id) initWithNibName:(NSString*)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil parent:(AppController*) parent;
 
@@ -89,5 +90,7 @@
 - (BOOL) hasRepoNameBeenSet;
 - (BOOL) hasAppNameBeenSet;
 - (BOOL) hasDbPassBeenSet;
+
+- (void) setProjectIsSetupToTrue;
 
 @end

@@ -4,12 +4,12 @@
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
     </dependencies>
     <objects>
-        <customObject id="-2" userLabel="File's Owner" customClass="RequiredDownloadsView">
+        <customObject id="-2" userLabel="File's Owner" customClass="RequiredDownloadsController">
             <connections>
                 <outlet property="githubButton" destination="gn1-Qe-g1f" id="64N-IQ-hMl"/>
                 <outlet property="pycharmButton" destination="kts-KO-AhR" id="msm-c2-1IN"/>
                 <outlet property="vagrantButton" destination="vZX-j2-1X4" id="97k-8E-WMP"/>
-                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="2XC-XW-F7j"/>
                 <outlet property="virtualBoxButton" destination="3Xp-3t-rLS" id="X5S-bV-Q2s"/>
                 <outlet property="xcodeButton" destination="FpB-xl-c0o" id="czL-bh-Phs"/>
             </connections>
@@ -50,7 +50,7 @@
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
-                        <action selector="Vagrant:" target="-2" id="2Fd-K5-o0R"/>
+                        <action selector="vagrant:" target="-2" id="cFV-ki-s69"/>
                     </connections>
                 </button>
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Xp-3t-rLS">

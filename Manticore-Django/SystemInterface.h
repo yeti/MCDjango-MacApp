@@ -11,15 +11,10 @@
 @interface SystemInterface : NSObject
 
 + (NSString*) runCommand:(NSString*)command;
-//+ (NSString*) runPythonCommand: (NSString*)command;
 + (void) runCommandInTerminal:(NSString*)command;
 + (BOOL) checkIfInstalled:(NSString*)program;
 + (NSString*) getSSHKey:(NSString*)homeDirectory fileName:(NSString*)file;
 
-
-
-+ (NSString*) runTask:(NSTask*)task waitUntilFinished:(BOOL)wait frameToWriteStatusTo:(id)statusBox;
-
-//+ (NSTask*) prepareTaskForPythonCommand:(NSString*)command;
++ (NSString*) runTask:(NSTask*)task waitUntilFinished:(BOOL)wait;
 + (NSTask*) prepareTaskForCommand:(NSString*)command;
 @end

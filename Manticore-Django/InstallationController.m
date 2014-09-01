@@ -6,11 +6,11 @@
 //  Copyright (c) 2014 Yeti. All rights reserved.
 //
 
-#import "DirectoryInstallationView.h"
+#import "InstallationController.h"
 
 @class SSHGeneratorController;
 
-@implementation DirectoryInstallationView
+@implementation InstallationController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil parent:(AppController*) parent
 {
@@ -25,6 +25,7 @@
 
 - (void) loadView {
     [super loadView];
+    NSLog(@"%@", [[NSBundle mainBundle] bundlePath]);
     self.githubImage = [[NSImage alloc] initByReferencingFile:@"static/images/github.png"];
     [self.githubButton setImage:self.githubImage];
     [self.manticoreLocation setURL:[[NSURL alloc] initFileURLWithPath:self.user.workspaceDir]];
@@ -33,8 +34,13 @@
 }
 
 - (void) nextAction {
-    [self.projectTypeWindow setIsVisible:YES];
-}
+    if (self.projectIsSetup) {
+        [self.parent nextAction];
+    }
+    else {
+        [self.projectTypeWindow setIsVisible:YES];
+    }
+};
 
 - (void) prevAction {
     [self.parent prevAction];
@@ -169,7 +175,8 @@
         else {
             fabCommand = [NSString stringWithFormat:@"/usr/local/bin/fab -D -f %@/manticore-django/manticore_django/fabfile vagrant.new:%@,%@,%@,git@github.com:%@.git", self.user.workspaceDir, self.user.projectName, self.user.appName, self.user.dbPass, self.user.repoName];
         }
-        [self runFab:fabCommand];
+        [self runFab:[NSString stringWithFormat: @"cd %@ & %@",self.user.projectDir, fabCommand]];
+        [self setProjectIsSetupToTrue];
     }
 
 }
@@ -242,6 +249,11 @@
     NSFileManager* fileManager = [NSFileManager defaultManager];
     [fileManager changeCurrentDirectoryPath:self.user.projectDir];
     [SystemInterface runCommandInTerminal:fabCommand];
+}
+
+- (void) setProjectIsSetupToTrue {
+    self.projectIsSetup = YES;
+    [self.parent.nextBtn setTitle:@"Next"];
 }
 
 @end
